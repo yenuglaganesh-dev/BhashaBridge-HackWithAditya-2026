@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@config "../tailwind.config.cjs";
+
+@keyframes eq-bar {
+  0%, 100% { transform: scaleY(0.25); }
+  50% { transform: scaleY(0.85); }
+}
+
+.eq-bar {
+  transform-origin: bottom;
+  animation: eq-bar 0.9s ease-in-out infinite;
+}

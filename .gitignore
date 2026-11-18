@@ -1,0 +1,21 @@
+# BhashaBridge - Environment variables (never commit real keys)
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# Java
+backend/target/
+
+# IDE
+.vscode/
+.idea/
+.kilo/
